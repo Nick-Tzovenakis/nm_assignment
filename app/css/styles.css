@@ -21,4 +21,23 @@
   border: none; }
 
 .text-only-button-bold {
+  font-size: 14px;
   font-weight: bold; }
+
+.section-title {
+  padding: 40px 0px 40px 0px;
+  font-size: 20px;
+  font-weight: bold; }
+
+.product-info .product-type {
+  color: #6b6b6b; }
+
+.product-info .product-name {
+  color: black; }
+
+.product-info .product-price {
+  color: #0084ff; }
+  .product-info .product-price div {
+    display: inline-block;
+    color: black;
+    font-size: 12px; }

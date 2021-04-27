@@ -25,5 +25,29 @@
 
 .text-only-button-bold{
     @extend .text-only-button;
+    font-size: 14px;
     font-weight:bold;
+}
+
+.section-title {
+    padding: 40px 0px 40px 0px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.product-info{
+    .product-type{
+        color: rgb(107, 107, 107);
+    }
+    .product-name{
+           color: black; 
+    }
+    .product-price{
+        div {
+            display: inline-block;
+            color: black; 
+            font-size: 12px;
+        }
+        color: rgb(0, 132, 255);
+    }
 }

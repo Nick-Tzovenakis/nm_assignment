@@ -23,10 +23,9 @@
 </head>
 
 <body>
-    <!--Content start-->
-
-    <!-- Top Navbar-->
+    <!-- Content start -->
     <header>
+        <!-- First Navbar -->
         <nav class="navbar d-flex justify-content-between flex-nowrap border-bottom">
             <button class="text-only-button">
                 (08)123 456 7890 | Store location
@@ -38,53 +37,53 @@
                 Log In/Sign Up
             </button>
         </nav>
+
+        <!-- Second Navbar -->
+        <nav class="navbar d-flex justify-content-between flex-nowrap">
+            <img src="./images/logo.svg" class="img-fluid .w-100" alt="logo">
+            <div class="nav">
+                <div class="dropdown">
+                    <button class="btn text-only-button-bold dropdown-toggle border-0" type="button"
+                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Home
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Click in shop</a>
+                        <a class="dropdown-item" href="#">Click away</a>
+                    </div>
+                </div>
+
+                <button class="btn text-only-button-bold">
+                    Shop
+                </button>
+
+                <div class="dropdown">
+                    <button class="btn text-only-button-bold dropdown-toggle border-0" type="button"
+                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Collection
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Sport</a>
+                        <a class="dropdown-item" href="#">Casual</a>
+                    </div>
+                </div>
+
+                <button class="btn text-only-button-bold">
+                    Blog
+                </button>
+
+                <button class="btn text-only-button-bold">
+                    Contact Us
+                </button>
+            </div>
+            <span class="navbar-text">
+                <button class="btn"><i class="fa fa-search"></i></button>
+                <button class="btn"><i class="fa fa-heart-o"></i></button>
+                <button class="btn"><i class="fa fa-shopping-bag"></i><span
+                        class="badge badge-primary">0</span></button>
+            </span>
+        </nav>
     </header>
-
-    <!--Second Navbar-->
-    <nav class="navbar d-flex justify-content-between flex-nowrap">
-        <img src="./images/logo.svg" class="img-fluid .w-100" alt="...">
-        <div class="nav">
-            <div class="dropdown">
-                <button class="btn text-only-button-bold dropdown-toggle border-0" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Home
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Click in shop</a>
-                    <a class="dropdown-item" href="#">Click away</a>
-                </div>
-            </div>
-
-            <button class="btn text-only-button-bold">
-                Shop
-            </button>
-
-            <div class="dropdown">
-                <button class="btn text-only-button-bold dropdown-toggle border-0" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Collection
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Sport</a>
-                    <a class="dropdown-item" href="#">Casual</a>
-                </div>
-            </div>
-
-            <button class="btn text-only-button-bold">
-                Blog
-            </button>
-
-            <button class="btn text-only-button-bold">
-                Contact Us
-            </button>
-        </div>
-        <span class="navbar-text">
-            <button class="btn"><i class="fa fa-search"></i></button>
-            <button class="btn"><i class="fa fa-heart-o"></i></button>
-            <button class="btn"><i class="fa fa-shopping-bag"></i><span class="badge badge-primary">0</span></button>
-        </span>
-    </nav>
-
     <!--Carousel container-->
     <div class="container">
         <div class="row">
@@ -95,7 +94,7 @@
                             <img src="./images/slide_01.jpg" class="img-fluid h-100 p-1" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="./images/slide_02.jpg" class="img-fluid h-100" alt="...">
+                            <img src="./images/slide_02.jpg" class="img-fluid h-100 p-1" alt="...">
                         </div>
                     </div>
                     <a class="custom-carousel-control-prev" href="#carouselExampleControls" role="button"
@@ -113,7 +112,100 @@
             <div class="col-sm-4">
                 <img src="./images/img_banner_top_1.jpg" class="img-fluid h-50 p-1" alt="...">
                 <img src="./images/img_banner_top_2.jpg" class="img-fluid h-50 p-1" alt="...">
+            </div>
+        </div>
+    </div>
 
+    <!--New arrivals-->
+    <div class="container">
+        <div class="section-title">New arrivals</div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card border-0">
+                    <img src="./images/product_315x315.jpg" class="card-img-top" alt="...">
+                    <div class="card-body product-info">
+                        <div class="product-type">TYPE 4</div>
+                        <div class="product-name">Nikon D300</div>
+                        <div class="product-price">$19.00 <div><del>$29.00</del></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card border-0">
+                    <img src="./images/product_315x315.jpg" class="card-img-top" alt="...">
+                    <div class="card-body product-info">
+                        <div class="product-type">TYPE 4</div>
+                        <div class="product-name">Nikon D300</div>
+                        <div class="product-price">$19.00 <div><del>$29.00</del></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="card border-0">
+                    <img src="./images/product_315x315.jpg" class="card-img-top" alt="...">
+                    <div class="card-body product-info">
+                        <div class="product-type">TYPE 4</div>
+                        <div class="product-name">Nikon D300</div>
+                        <div class="product-price">$19.00 <div><del>$29.00</del></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="card border-0">
+                    <img src="./images/product_315x315.jpg" class="card-img-top" alt="...">
+                    <div class="card-body product-info">
+                        <div class="product-type">TYPE 4</div>
+                        <div class="product-name">Nikon D300</div>
+                        <div class="product-price">$19.00 <div><del>$29.00</del></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--New arrivals-->
+    <div class="container">
+        <div class="section-title">New arrivals</div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card border-0">
+                    <img src="./images/category_315x315.jpg" class="card-img-top" alt="...">
+                    <div class="card-body product-info">
+                        <div class="product-type">TYPE 4</div>
+                        <div class="product-name">Nikon D300</div>
+                        <div class="product-price">$19.00 <div><del>$29.00</del></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card border-0">
+                    <img src="./images/product_315x315.jpg" class="card-img-top" alt="...">
+                    <div class="card-body product-info">
+                        <div class="product-type">TYPE 4</div>
+                        <div class="product-name">Nikon D300</div>
+                        <div class="product-price">$19.00 <div><del>$29.00</del></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="card border-0">
+                    <img src="./images/product_315x315.jpg" class="card-img-top" alt="...">
+                    <div class="card-body product-info">
+                        <div class="product-type">TYPE 4</div>
+                        <div class="product-name">Nikon D300</div>
+                        <div class="product-price">$19.00 <div><del>$29.00</del></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="card border-0">
+                    <img src="./images/product_315x315.jpg" class="card-img-top" alt="...">
+                    <div class="card-body product-info">
+                        <div class="product-type">TYPE 4</div>
+                        <div class="product-name">Nikon D300</div>
+                        <div class="product-price">$19.00 <div><del>$29.00</del></div></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
