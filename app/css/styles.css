@@ -41,3 +41,8 @@
     display: inline-block;
     color: black;
     font-size: 12px; }
+
+.search-input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #0084ff; }
