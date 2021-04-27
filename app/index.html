@@ -135,17 +135,20 @@
                     <div class="product-container">
                         <img src="./images/product_315x315.jpg" class="card-img-top" alt="...">
                         <div class="product-hover-buttons d-flex justify-content-center">
-                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1">
+                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1"
+                                data-toggle="tooltip" data-placement="top" title="Add to cart">
                                 <i class="fa fa-shopping-cart"></i>
                             </button>
-                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1">
+                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1"
+                                data-toggle="tooltip" data-placement="top" title="Favourite">
                                 <i class="fa fa-heart-o"></i>
                             </button>
-                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1">
+                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1"
+                                data-toggle="tooltip" data-placement="top" title="More">
                                 <i class="fa fa-signal"></i>
                             </button>
                         </div>
-                    </div>                    
+                    </div>
 
                     <div class="card-body product-info text-center">
                         <div class="product-type">TYPE 4</div>
@@ -221,7 +224,7 @@
                             </button>
                         </div>
                     </div>
-                    
+
                     <div class="card-body product-info text-center">
                         <div class="product-type">TYPE 4</div>
                         <div class="product-name">Nikon D300</div>
@@ -320,5 +323,11 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
 </body>
+
+<script>
+    jQuery(document).ready(function () {
+        jQuery('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
 
 </html>
