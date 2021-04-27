@@ -1,19 +1,29 @@
-.custom_carousel-control-prev{ 
+.custom-carousel-control-prev{ 
     background-color: rgb(202, 202, 202);
     position: absolute;
+    padding: 10px;
+    font-size: 2px;
+    border-radius: 50%;
     bottom: 10px; 
     right: 80px;
-    padding: 10px;
-    font-size: 2px;
-    border-radius: 50%;
 }
 
-.custom_carousel-control-next{ 
+.custom-carousel-control-next{ 
     background-color: rgb(202, 202, 202);
     position: absolute;
-    bottom: 10px; 
-    font-size: 2px;
-    right: 30px; 
     padding: 10px;
+    font-size: 2px;
     border-radius: 50%;
+    bottom: 10px; 
+    right: 30px; 
+}
+
+.text-only-button{
+    background:none;
+    border:none;
+}
+
+.text-only-button-bold{
+    @extend .text-only-button;
+    font-weight:bold;
 }
