@@ -1,3 +1,4 @@
+/* Carousel controls */
 .custom-carousel-control-prev {
   background-color: #cacaca;
   position: absolute;
@@ -16,6 +17,7 @@
   bottom: 10px;
   right: 30px; }
 
+/* Clickable text*/
 .text-only-button, .text-only-button-bold {
   background: none;
   border: none; }
@@ -24,10 +26,27 @@
   font-size: 14px;
   font-weight: bold; }
 
+/* Inner titles */
 .section-title {
   padding: 40px 0px 40px 0px;
   font-size: 20px;
   font-weight: bold; }
+
+/* Product css */
+.product-container:hover .image {
+  opacity: 0.3; }
+
+.product-container:hover .product-hover-buttons {
+  opacity: 1; }
+
+.product-hover-buttons {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
 
 .product-info .product-type {
   color: #6b6b6b; }
@@ -42,10 +61,12 @@
     color: black;
     font-size: 12px; }
 
+/* Modal's search input*/
 .search-input {
   outline: 0;
   border-width: 0 0 2px;
   border-color: #0084ff; }
 
+/* Footer rules */
 .footer-info {
   background-color: #e4e4e4; }

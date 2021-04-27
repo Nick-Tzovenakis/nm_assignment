@@ -1,3 +1,4 @@
+/* Carousel controls */
 .custom-carousel-control-prev{ 
     background-color: rgb(202, 202, 202);
     position: absolute;
@@ -18,6 +19,7 @@
     right: 30px; 
 }
 
+/* Clickable text*/
 .text-only-button{
     background:none;
     border:none;
@@ -29,10 +31,28 @@
     font-weight:bold;
 }
 
+/* Inner titles */
 .section-title {
     padding: 40px 0px 40px 0px;
     font-size: 20px;
     font-weight:bold;
+}
+
+/* Product css */
+.product-container:hover .image {
+    opacity: 0.3;
+}
+.product-container:hover .product-hover-buttons {
+    opacity: 1;
+}
+.product-hover-buttons {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
 }
 
 .product-info{
@@ -52,12 +72,14 @@
     }
 }
 
+/* Modal's search input*/
 .search-input {
     outline: 0;
     border-width: 0 0 2px;
     border-color: rgb(0, 132, 255);
 }
 
+/* Footer rules */
 .footer-info {
     background-color: rgb(228, 228, 228);
 }
