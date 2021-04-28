@@ -163,13 +163,16 @@
                     <div class="product-container">
                         <img src="./images/product_315x315.jpg" class="card-img-top" alt="...">
                         <div class="product-hover-buttons d-flex justify-content-center">
-                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1">
+                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1"
+                                data-toggle="tooltip" data-placement="top" title="Add to cart">
                                 <i class="fa fa-shopping-cart"></i>
                             </button>
-                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1">
+                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1"
+                                data-toggle="tooltip" data-placement="top" title="Favourite">
                                 <i class="fa fa-heart-o"></i>
                             </button>
-                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1">
+                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1"
+                                data-toggle="tooltip" data-placement="top" title="More">
                                 <i class="fa fa-signal"></i>
                             </button>
                         </div>
@@ -188,13 +191,16 @@
                     <div class="product-container">
                         <img src="./images/product_315x315.jpg" class="card-img-top" alt="...">
                         <div class="product-hover-buttons d-flex justify-content-center">
-                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1">
+                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1"
+                                data-toggle="tooltip" data-placement="top" title="Add to cart">
                                 <i class="fa fa-shopping-cart"></i>
                             </button>
-                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1">
+                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1"
+                                data-toggle="tooltip" data-placement="top" title="Favourite">
                                 <i class="fa fa-heart-o"></i>
                             </button>
-                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1">
+                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1"
+                                data-toggle="tooltip" data-placement="top" title="More">
                                 <i class="fa fa-signal"></i>
                             </button>
                         </div>
@@ -213,13 +219,16 @@
                     <div class="product-container">
                         <img src="./images/product_315x315.jpg" class="card-img-top" alt="...">
                         <div class="product-hover-buttons d-flex justify-content-center">
-                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1">
+                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1"
+                                data-toggle="tooltip" data-placement="top" title="Add to cart">
                                 <i class="fa fa-shopping-cart"></i>
                             </button>
-                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1">
+                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1"
+                                data-toggle="tooltip" data-placement="top" title="Favourite">
                                 <i class="fa fa-heart-o"></i>
                             </button>
-                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1">
+                            <button type="button" class="btn btn-light btn-outline-primary rounded-circle m-1"
+                                data-toggle="tooltip" data-placement="top" title="More">
                                 <i class="fa fa-signal"></i>
                             </button>
                         </div>
@@ -343,8 +352,9 @@
 </script>
 <script>
     jQuery(document).ready(function () {
-        jQuery('[data-toggle="tooltip"]').tooltip();
+        jQuery('[data-toggle="tooltip"]').tooltip({
+            trigger : 'hover'
+        });
     });
 </script>
-
 </html>
