@@ -26,22 +26,22 @@
     <!-- Content start -->
     <header>
         <!-- First Navbar -->
-        <nav id="topNavbar" class="navbar d-flex justify-content-between flex-nowrap border-bottom">
+        <nav id="topNavbar" class="navbar d-flex justify-content-between border-bottom">
             <button class="text-only-button">
                 (08)123 456 7890 | Store location
             </button>
-            <span class="navbar-text">
+            <div class="navbar-text p-2">
                 We are open with limited hours and staff.
-            </span>
+            </div>
             <button class="text-only-button">
                 Log In/Sign Up
             </button>
         </nav>
 
         <!-- Second Navbar -->
-        <nav class="non-mobile-navbar navbar d-flex justify-content-between flex-nowrap">
-            <img src="./images/logo.svg" class="img-fluid .w-100" alt="logo">
-            <div class="nav">
+        <nav class="navbar d-flex justify-content-between flex-nowrap">
+            <img src="./images/logo.svg" class="img-fluid" width="100" height="100" alt="logo">
+            <div class="nav d-none d-md-flex">
                 <div class="dropdown">
                     <button class="btn text-only-button-bold dropdown-toggle border-0" type="button"
                         id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -79,14 +79,17 @@
             <span class="navbar-text">
                 <button type="button" class="btn"><i class="fa fa-search" data-toggle="modal"
                         data-target="#exampleModal"></i></button>
-                <button type="button" class="btn"><i class="fa fa-heart-o"></i></button>
+                <button type="button" class="btn d-sm-inline d-md-none"><i class="fa fa-user"></i></button>
+                <button type="button" class="btn d-none d-md-inline"><i class="fa fa-heart-o"></i></button>
                 <button type="button" class="btn"><i class="fa fa-shopping-bag"></i>
                     <span class="badge badge-primary">0</span>
                 </button>
+                <button type="button" class="btn d-sm-inline d-md-none"><i class="fa fa-bars"></i></button>
             </span>
         </nav>
     </header>
-    <!--Carousel container-->
+
+    <!--Carousel -->
     <div class="container">
         <div class="row">
             <div class="col-sm-8 ">
@@ -130,7 +133,7 @@
     <div class="container">
         <div class="section-title">New arrivals</div>
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm">
                 <div class="card border-0">
                     <div class="product-container">
                         <img src="./images/product_315x315.jpg" class="card-img-top" alt="...">
@@ -320,8 +323,7 @@
                     class="img-fluid .w-100" alt="logo"></div>
         </div>
 
-        <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i
-                class="fa fa-arrow-up"></i></a>
+        <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button">&#8593;</a>
     </footer>
 
     <!-- Modal -->

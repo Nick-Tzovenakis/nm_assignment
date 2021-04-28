@@ -55,7 +55,7 @@
   color: black; }
 
 .product-info .product-price {
-  color: #0084ff; }
+  color: #006fca; }
   .product-info .product-price div {
     display: inline-block;
     color: black;
@@ -65,16 +65,18 @@
 .search-input {
   outline: 0;
   border-width: 0 0 2px;
-  border-color: #0084ff; }
+  border-color: #006fca; }
 
 /* Footer rules */
 .footer-info {
   background-color: #e4e4e4; }
 
+/* Back to top button */
 .back-to-top {
   position: fixed;
   bottom: 25px;
   right: 25px;
   display: none;
-  border: 1px solid black;
+  color: white;
+  background-color: #006fca;
   border-radius: 50%; }
