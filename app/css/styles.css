@@ -70,3 +70,11 @@
 /* Footer rules */
 .footer-info {
   background-color: #e4e4e4; }
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  background-color: #0066ff;
+  border-radius: 50%; }
