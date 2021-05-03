@@ -1,5 +1,14 @@
 $common-sky-blue: #006fca;
 
+/* Toggled Menu*/
+.toggledMenu {
+    background-color: rgb(243, 248, 252);
+}
+
+.toggledMenuInner{
+    background-color: rgb(238, 238, 238);
+    font-size: 14px;
+}
 /* Carousel controls */
 .custom-carousel-control-prev{ 
     background-color: rgb(202, 202, 202);
@@ -74,15 +83,17 @@ $common-sky-blue: #006fca;
     }
 }
 
-/* Modal's search input*/
-.search-input {
-    outline: 0;
-    border-width: 0 0 2px;
-    border-color: $common-sky-blue;
-}
+/*Categories*/
+.categories-border-right {
+    border-right: 1px solid lightgray;
 
-/* Footer rules */
-.footer-info {
+    @media all and (max-width: 768px) {
+        border-right: 0px solid lightgray;
+    }
+} 
+
+/* General info */
+.general-info {
     background-color: rgb(228, 228, 228);
 }
 
@@ -95,4 +106,11 @@ $common-sky-blue: #006fca;
     color:white;
     background-color: $common-sky-blue;
     border-radius: 50%;
+}
+ 
+/* Modal's search input*/
+.search-input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: $common-sky-blue;
 }

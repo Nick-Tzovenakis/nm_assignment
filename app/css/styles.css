@@ -1,3 +1,11 @@
+/* Toggled Menu*/
+.toggledMenu {
+  background-color: #f3f8fc; }
+
+.toggledMenuInner {
+  background-color: #eeeeee;
+  font-size: 14px; }
+
 /* Carousel controls */
 .custom-carousel-control-prev {
   background-color: #cacaca;
@@ -61,14 +69,15 @@
     color: black;
     font-size: 12px; }
 
-/* Modal's search input*/
-.search-input {
-  outline: 0;
-  border-width: 0 0 2px;
-  border-color: #006fca; }
+/*Categories*/
+.categories-border-right {
+  border-right: 1px solid lightgray; }
+  @media all and (max-width: 768px) {
+    .categories-border-right {
+      border-right: 0px solid lightgray; } }
 
-/* Footer rules */
-.footer-info {
+/* General info */
+.general-info {
   background-color: #e4e4e4; }
 
 /* Back to top button */
@@ -80,3 +89,9 @@
   color: white;
   background-color: #006fca;
   border-radius: 50%; }
+
+/* Modal's search input*/
+.search-input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #006fca; }
