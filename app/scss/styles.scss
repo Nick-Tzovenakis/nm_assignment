@@ -109,8 +109,27 @@ $common-sky-blue: #006fca;
 }
  
 /* Modal's search input*/
+#exampleModal{
+    padding:0px !important;
+}
+.modal-dialog {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+  
+.modal-content {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+}
+  
 .search-input {
     outline: 0;
     border-width: 0 0 2px;
     border-color: $common-sky-blue;
+    width: 80%;
+    padding-top: 50px;
+    margin: 20px;
 }
+
